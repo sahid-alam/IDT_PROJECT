@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CarbonWatch</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="animate-slide">CarbonWatch</h1>
+            <p class="animate-fade">Tracking Global Emissions</p>
+        </div>
+    </header>
 
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="animate-pop">Our Climate Challenge</h2>
+            <p class="animate-fade">Every ton of CO₂ impacts our future</p>
+            <a href="/dashboard" class="cta-button animate-pulse">
+                Explore Data <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="facts">
+        <div class="fact-card">
+            <i class="fas fa-industry"></i>
+            <h3>Energy Production</h3>
+            <p>Accounts for 35% of global emissions</p>
+        </div>
+        <div class="fact-card">
+            <i class="fas fa-car"></i>
+            <h3>Transportation</h3>
+            <p>Responsible for 20% of CO₂ output</p>
+        </div>
+        <div class="fact-card">
+            <i class="fas fa-tree"></i>
+            <h3>Deforestation</h3>
+            <p>Causes 10% of annual emissions</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 CarbonWatch. Data from IPCC reports.</p>
+    </footer>
+</body>
+</html>
